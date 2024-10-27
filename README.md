@@ -41,7 +41,7 @@ O `DirectoryAnalyzer` é uma aplicação em Python com interface gráfica (GUI) 
 
 1. **Execute o aplicativo**:
     ```bash
-    python main.py
+    python File_Manager.py
     ```
 
 2. **Selecione um diretório** para monitoramento e clique em "Analisar Diretório" para verificar mudanças.
