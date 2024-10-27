@@ -17,7 +17,7 @@ O `DirectoryAnalyzer` é uma aplicação em Python com interface gráfica (GUI) 
 
 ## Tecnologias Utilizadas
 
-- **Python 3**
+- **Python 3.12.6**
 - **PySide6**: Interface gráfica.
 - **Pandas**: Manipulação de dados e exportação para Excel e CSV.
 - **SQLite3**: Banco de dados embutido para armazenar histórico de mudanças.
@@ -27,8 +27,8 @@ O `DirectoryAnalyzer` é uma aplicação em Python com interface gráfica (GUI) 
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/username/DirectoryAnalyzer.git
-    cd DirectoryAnalyzer
+    git clone https://github.com/fernandoncidade/File_Manager
+    cd File_Manager
     ```
 
 2. Instale as dependências:
