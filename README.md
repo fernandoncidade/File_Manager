@@ -1,0 +1,2 @@
+# File_Manager
+ O DirectoryAnalyzer é uma aplicação em Python com interface gráfica (GUI) criada com PySide6, que permite ao usuário monitorar alterações em um diretório, como adição, exclusão, modificação e renomeação de arquivos e pastas. O aplicativo exibe essas informações e permite exportar os dados para arquivos Excel, CSV e TXT, além de armazenar um histórico das alterações em um banco de dados SQLite.
