@@ -19,7 +19,7 @@ class DirectoryAnalyzer(QWidget):
         self.setWindowTitle('Analisador de Diretórios')
         icon_title_path = os.path.join(icon_path, "manager_files1.ico")
         self.setWindowIcon(QIcon(icon_title_path))
-        self.setGeometry(100, 100, 600, 600)
+        self.setGeometry(100, 100, 1000, 500)
 
         layout = QHBoxLayout()
 
