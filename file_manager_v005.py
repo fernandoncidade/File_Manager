@@ -2,7 +2,7 @@ import sys
 import os
 from PySide6.QtWidgets import QApplication, QWidget, QHBoxLayout, QVBoxLayout, QPushButton, QLabel, QTableWidget, QSpacerItem, QSizePolicy
 from PySide6.QtGui import QIcon, QFont
-from Directory_Utils import init_db, select_directory, scan_directory, analyze_directory, detect_renamed_directories, detect_renamed_files, detect_added_items, detect_deleted_items, detect_modified_items, save_to_db, load_db_content, export_to_excel, export_to_csv, export_to_txt, clear_data, format_time
+from directory_utils_v005 import init_db, select_directory, scan_directory, analyze_directory, detect_renamed_directories, detect_renamed_files, detect_added_items, detect_deleted_items, detect_modified_items, save_to_db, load_db_content, export_to_excel, export_to_csv, export_to_txt, clear_data, format_time
 
 
 class DirectoryAnalyzer(QWidget):
