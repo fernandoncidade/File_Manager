@@ -9,3 +9,4 @@ platformdirs==4.2.2
 pyinstaller==6.11.0
 pyside6==6.8.0.2
 tomli==2.0.1
+watchdog==6.0.0

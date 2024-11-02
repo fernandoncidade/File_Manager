@@ -18,12 +18,12 @@ pyinstaller --onefile -w rascunho.py
 
 
 SEM ÍCONE:
-pyinstaller --onefile -w --hidden-import babel.numbers rascunho.py
+pyinstaller --onefile -w -n "Gerenciador Arquivos" --hidden-import babel.numbers rascunho.py
 
 
 
 COM ÍCONE:
-pyinstaller --onefile -w --hidden-import babel.numbers --icon=C:\Users\ferna\Project_Development\Projects_Python\Manager-BackUp_Multi-Thread-Grid_PyQt6-WinRAR-7Zip\Manager-BackUp.ico rascunho.py
+pyinstaller --onefile -w -n "Gerenciador Arquivos" --hidden-import babel.numbers --icon=C:\Users\ferna\Project_Development\Projects_Python\Manager-BackUp_Multi-Thread-Grid_PyQt6-WinRAR-7Zip\Manager-BackUp.ico rascunho.py
 
 
 
@@ -31,28 +31,28 @@ COM ÍCONE + COM EXECUTÁVEIS EXTERNOS NA RAIZ + ÍCONES DOS BOTÕES + ÍCONE T�
 
 COM ARQUIVOS DE IDIOMA PARA WINRAR E 7ZIP (Sub-Pasta Raiz)
 
-pyinstaller --onefile -w --hidden-import "babel.numbers" --icon="C:\Users\ferna\PROJETOS\Projetos_Python\File-Folder-Manager\File_Manager\icones\manager_files1.ico" --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\File-Folder-Manager\File_Manager\icones\*;icones" "File_Manager.py"
+pyinstaller --onefile -w -n "Gerenciador Arquivos" --hidden-import "babel.numbers" --icon="C:\Users\ferna\PROJETOS\Projetos_Python\File-Folder-Manager\File_Manager\icones\manager_files1.ico" --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\File-Folder-Manager\File_Manager\icones\*;icones" "file_manager_v006.py"
 
 
 
 ***EXEMPLO RASCUNHO (Sub-Pasta Raiz)***
 
-pyinstaller --onefile -w --hidden-import "babel.numbers" 
+pyinstaller --onefile -w -n "Gerenciador Arquivos" --hidden-import "babel.numbers" 
 --icon="C:\Users\ferna\PROJETOS\Projetos_Python\File-Folder-Manager\File_Manager\icones\manager_files1.ico" 
 --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\File-Folder-Manager\File_Manager\icones\*;icones" 
-"File_Manager.py"
+"file_manager_v006.py"
 
 
-pyinstaller --onefile -w --hidden-import "babel.numbers" 
+pyinstaller --onefile -w -n "Gerenciador Arquivos" --hidden-import "babel.numbers" 
 --icon="C:\Users\ferna\PROJETOS\Projetos_Python\File-Folder-Manager\File_Manager\icones\manager_files1.ico" 
 --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\File-Folder-Manager\File_Manager\icones\*;icones" 
-"File_Manager.py"
+"file_manager_v006.py"
 
 
 
 ***EXEMPLO RASCUNHO (Pasta Raiz)***
 
-pyinstaller --onefile -w --hidden-import "babel.numbers" 
+pyinstaller --onefile -w -n "Gerenciador Arquivos" --hidden-import "babel.numbers" 
 --icon="C:\Users\ferna\PROJETOS\Projetos_Python\File-Folder-Manager\File_Manager\icones\manager_files1.ico" 
 --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\File-Folder-Manager\File_Manager\icones\analyze.ico"
 --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\File-Folder-Manager\File_Manager\icones\clear.ico"
@@ -62,7 +62,7 @@ pyinstaller --onefile -w --hidden-import "babel.numbers"
 --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\File-Folder-Manager\File_Manager\icones\selecione.ico"
 --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\File-Folder-Manager\File_Manager\icones\txt.ico"
 --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\File-Folder-Manager\File_Manager\icones\xlsx.ico"
-"_1_GUI.py"
+"file_manager_v006.py"
 
 
 
