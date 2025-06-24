@@ -1,0 +1,2 @@
+# File_Manager
+O `File_Manager` é uma aplicação em C++ com interface gráfica (GUI) criada com Qt Desing, que permite ao usuário monitorar alterações em um diretório, como adição, exclusão, modificação e renomeação de arquivos e pastas. O aplicativo exibe essas informações e permite exportar os dados para arquivos CSV e TXT, além de armazenar um histórico das alterações em um banco de dados SQLite.
