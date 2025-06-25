@@ -1,0 +1,4 @@
+Cannot generate into C:\Users\ferna\WORK\Projetos_CPP\File_Manager\cmake-build-debug
+It was created with incompatible generator 'MinGW Makefiles'
+
+Please either delete it manually or select another generation directory

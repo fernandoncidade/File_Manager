@@ -1,0 +1,667 @@
+C:\Qt\Tools\mingw1310_64\bin\mingw32-make.exe all -C c:\Users\ferna\WORK\Projetos_CPP\File_Manager/cmake-build-debug --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Jun 25 00:14:52 2025
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
+# automatic
+?F = $(notdir $?)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# makefile
+MAKEFLAGS = pqrRsw
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/ferna/WORK/Projetos_CPP/File_Manager/cmake-build-debug
+# makefile (from 'Makefile', line 47)
+SHELL = cmd.exe
+# makefile (from 'Makefile', line 53)
+RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
+# environment
+CLION = C:\Program Files\JetBrains\CLion 2025.1\bin;
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"userLocale":"pt-br","osLocale":"pt-br","resolvedLanguage":"pt-br","defaultMessagesFile":"C:\\Users\\ferna\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\out\\nls.messages.json","languagePack":{"translationsConfigFile":"C:\\Users\\ferna\\AppData\\Roaming\\Code\\clp\\505f98eeee092f15c25e49b38c3a801a.pt-br\\tcf.json","messagesFile":"C:\\Users\\ferna\\AppData\\Roaming\\Code\\clp\\505f98eeee092f15c25e49b38c3a801a.pt-br\\18e3a1ec544e6907be1e944a94c496e302073435\\nls.messages.json","corruptMarkerFile":"C:\\Users\\ferna\\AppData\\Roaming\\Code\\clp\\505f98eeee092f15c25e49b38c3a801a.pt-br\\corrupted.info"},"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"505f98eeee092f15c25e49b38c3a801a.pt-br","_languagePackSupport":true,"_translationsConfigFile":"C:\\Users\\ferna\\AppData\\Roaming\\Code\\clp\\505f98eeee092f15c25e49b38c3a801a.pt-br\\tcf.json","_cacheRoot":"C:\\Users\\ferna\\AppData\\Roaming\\Code\\clp\\505f98eeee092f15c25e49b38c3a801a.pt-br","_resolvedLanguagePackCoreLocation":"C:\\Users\\ferna\\AppData\\Roaming\\Code\\clp\\505f98eeee092f15c25e49b38c3a801a.pt-br\\18e3a1ec544e6907be1e944a94c496e302073435","_corruptedFile":"C:\\Users\\ferna\\AppData\\Roaming\\Code\\clp\\505f98eeee092f15c25e49b38c3a801a.pt-br\\corrupted.info"}
+# environment
+ONEDRIVE = C:\Users\ferna\OneDrive
+# environment
+VSCODE_PID = 6956
+# makefile (from 'Makefile', line 62)
+CMAKE_BINARY_DIR = C:\Users\ferna\WORK\Projetos_CPP\File_Manager\cmake-build-debug
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+TMP = C:\Users\ferna\AppData\Local\Temp
+# environment
+WEBSTORM = C:\Program Files\JetBrains\WebStorm 2025.1\bin;
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# makefile (from 'Makefile', line 35)
+MAKESILENT = -s
+# environment
+VSCODE_CWD = C:\Users\ferna\AppData\Local\Programs\Microsoft VS Code
+# environment
+DOTNET_MULTILEVEL_LOOKUP = undefined
+# default
+MAKE_HOST := x86_64-w64-mingw32
+# environment
+PATH = C:\Python3132\Scripts\;C:\Python3132\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PowerShell\7\;C:\Program Files\Bandizip\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\CMake\bin;C:\MinGW\bin;C:\cygwin64\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Qt\6.9.1\mingw_64;C:\Users\ferna\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\ferna\AppData\Local\Programs\Python\Python313\;C:\Users\ferna\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\cygwin64\bin;C:\Users\ferna\AppData\Roaming\npm;C:\Users\ferna\AppData\Local\Apps\Tcl90\bin;C:\Users\ferna\AppData\Local\GitHubDesktop\bin;C:\Users\ferna\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2025.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1\bin;;C:\Program Files\JetBrains\CLion 2025.1\bin;;C:\Program Files\JetBrains\DataGrip 2025.1.1\bin;;C:\Program Files\JetBrains\WebStorm 2025.1\bin;;C:\Qt\6.9.1\mingw_64;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+VSCODE_DOTNET_INSTALL_TOOL_ORIGINAL_HOME = undefined
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133908785401559401
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\ferna
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# environment
+CMAKE_PREFIX_PATH = C:\Qt
+# environment
+INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2025.1\bin;
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6956_LGZMAAUVQFGGDPFS
+# environment
+COMPUTERNAME = FERNANDONCIDADE
+# environment
+EFC_11056_2283032206 = 1
+# environment
+COMMONPROPERTYBAGPATH = C:\Users\ferna\AppData\Local\Temp\csdevkit\260e1b19.json
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = ferna
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\ferna\AppData\Roaming\Code\CachedData\18e3a1ec544e6907be1e944a94c496e302073435
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 56)
+EQUALS = =
+# environment
+COMMONPROPERTYBAGWITHCONFIGPATH = C:\Users\ferna\AppData\Local\Temp\csdevkit\064a7ea27ebf1750818298989.json
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\FERNANDONCIDADE
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = FERNANDONCIDADE
+# environment
+EFC_11056_3789132940 = 1
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+EFC_11056_1592913036 = 1
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := default_target
+# environment
+APPLICATION_INSIGHTS_NO_STATSBEAT = true
+# makefile (from 'Makefile', line 59)
+CMAKE_SOURCE_DIR = C:\Users\ferna\WORK\Projetos_CPP\File_Manager
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+DOTNET_CLI_UI_LANGUAGE = en-US
+# environment
+LOCALAPPDATA = C:\Users\ferna\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/Qt/Tools/mingw1310_64/bin/mingw32-make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b27f14d7-1.101.1-main-sock
+# environment
+DOTNET_NOLOGO = true
+# environment
+HOMEPATH = \Users\ferna
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrRsw
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# environment
+GOTELEMETRY_GOPLS_CLIENT_TOKEN = 840
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = file:///c%3A/Users/ferna/.vscode/extensions/ms-ceintl.vscode-language-pack-pt-br-1.101.2025061109/translations/extensions/vscode.json-language-features.i18n.json
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\ferna\AppData\Roaming
+# environment
+TEMP = C:\Users\ferna\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+DATAGRIP = C:\Program Files\JetBrains\DataGrip 2025.1.1\bin;
+# environment
+EFC_11056_2775293581 = 1
+# makefile (from 'Makefile', line 50)
+CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
+# automatic
+^F = $(notdir $^)
+# environment
+EFC_11056_1262719628 = 1
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = a502
+# environment
+PYCHARM = C:\Program Files\JetBrains\PyCharm 2025.1\bin;
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+APPLICATIONINSIGHTS_CONFIGURATION_CONTENT = {}
+# environment
+USERDOMAIN_ROAMINGPROFILE = FERNANDONCIDADE
+# variable set hash-table stats:
+# Load=117/1024=11%, Rehash=0, Collisions=19/146=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# SCCS: could not be stat'd.
+# . (key c:/Users/ferna/WORK/Projetos_CPP/File_Manager/cmake-build-debug, mtime 1750821192): 10 files, no impossibilities.
+# RCS: could not be stat'd.
+
+# 10 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+%: %,v
+
+%: RCS/%
+
+%: RCS/%,v
+
+%: SCCS/s.%
+
+%: s.%
+
+%.hpux_make_needs_suffix_list:
+
+# 6 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+cmake_force:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+File_Manager.obj: File_Manager.cpp.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+File_Manager.i: File_Manager.cpp.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+edit_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
+	"C:\Program Files\CMake\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+
+DirectoryAnalyzer.cpp.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 177):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\File_Manager.dir\build.make CMakeFiles/File_Manager.dir/DirectoryAnalyzer.cpp.i
+
+all: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  recipe to execute (from 'Makefile', line 89):
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ferna\WORK\Projetos_CPP\File_Manager\cmake-build-debug\CMakeFiles C:\Users\ferna\WORK\Projetos_CPP\File_Manager\cmake-build-debug\\CMakeFiles\progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ferna\WORK\Projetos_CPP\File_Manager\cmake-build-debug\CMakeFiles 0
+
+File_Manager_autogen_timestamp_deps: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 143):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 File_Manager_autogen_timestamp_deps
+
+.PHONY: default_target cmake_force edit_cache edit_cache/fast rebuild_cache rebuild_cache/fast all codegen clean clean/fast preinstall preinstall/fast depend File_Manager File_Manager/fast File_Manager_autogen_timestamp_deps File_Manager_autogen_timestamp_deps/fast File_Manager_autogen File_Manager_autogen/fast DirectoryAnalyzer.obj DirectoryAnalyzer.cpp.obj DirectoryAnalyzer.i DirectoryAnalyzer.cpp.i DirectoryAnalyzer.s DirectoryAnalyzer.cpp.s File_Manager.obj File_Manager.cpp.obj File_Manager.i File_Manager.cpp.i File_Manager.s File_Manager.cpp.s File_Manager_autogen/mocs_compilation.obj File_Manager_autogen/mocs_compilation.cpp.obj File_Manager_autogen/mocs_compilation.i File_Manager_autogen/mocs_compilation.cpp.i File_Manager_autogen/mocs_compilation.s File_Manager_autogen/mocs_compilation.cpp.s help cmake_check_build_system
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+File_Manager.cpp.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 201):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\File_Manager.dir\build.make CMakeFiles/File_Manager.dir/File_Manager.cpp.i
+
+preinstall/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 117):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+
+.SUFFIXES: .hpux_make_needs_suffix_list
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2025-06-25 00:12:35
+#  File has been updated.
+#  Successfully updated.
+
+File_Manager/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 135):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\File_Manager.dir\build.make CMakeFiles/File_Manager.dir/build
+
+File_Manager_autogen/mocs_compilation.s: File_Manager_autogen/mocs_compilation.cpp.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.NOTPARALLEL:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+DirectoryAnalyzer.i: DirectoryAnalyzer.cpp.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+File_Manager_autogen/mocs_compilation.obj: File_Manager_autogen/mocs_compilation.cpp.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean/fast: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+File_Manager_autogen/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 161):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\File_Manager_autogen.dir\build.make CMakeFiles/File_Manager_autogen.dir/build
+
+cmake_check_build_system:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := cmake_check_build_system
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/14=21%
+#  recipe to execute (from 'Makefile', line 268):
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+
+DirectoryAnalyzer.cpp.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 185):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\File_Manager.dir\build.make CMakeFiles/File_Manager.dir/DirectoryAnalyzer.cpp.s
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 238):
+	@echo The following are some of the valid targets for this Makefile:
+	@echo ... all (the default if no target is provided)
+	@echo ... clean
+	@echo ... depend
+	@echo ... codegen
+	@echo ... edit_cache
+	@echo ... rebuild_cache
+	@echo ... File_Manager_autogen
+	@echo ... File_Manager_autogen_timestamp_deps
+	@echo ... File_Manager
+	@echo ... DirectoryAnalyzer.obj
+	@echo ... DirectoryAnalyzer.i
+	@echo ... DirectoryAnalyzer.s
+	@echo ... File_Manager.obj
+	@echo ... File_Manager.i
+	@echo ... File_Manager.s
+	@echo ... File_Manager_autogen/mocs_compilation.obj
+	@echo ... File_Manager_autogen/mocs_compilation.i
+	@echo ... File_Manager_autogen/mocs_compilation.s
+
+preinstall: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 112):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+
+File_Manager_autogen/mocs_compilation.cpp.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 225):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\File_Manager.dir\build.make CMakeFiles/File_Manager.dir/File_Manager_autogen/mocs_compilation.cpp.i
+
+DirectoryAnalyzer.cpp.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 169):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\File_Manager.dir\build.make CMakeFiles/File_Manager.dir/DirectoryAnalyzer.cpp.obj
+
+File_Manager.cpp.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 209):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\File_Manager.dir\build.make CMakeFiles/File_Manager.dir/File_Manager.cpp.s
+
+.SILENT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+depend:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 122):
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+
+File_Manager_autogen/mocs_compilation.i: File_Manager_autogen/mocs_compilation.cpp.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+File_Manager.cpp.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 193):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\File_Manager.dir\build.make CMakeFiles/File_Manager.dir/File_Manager.cpp.obj
+
+File_Manager: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 130):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 File_Manager
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+default_target: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 103):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+
+rebuild_cache/fast: rebuild_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+edit_cache/fast: edit_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+File_Manager_autogen: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 156):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 File_Manager_autogen
+
+codegen: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 96):
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ferna\WORK\Projetos_CPP\File_Manager\cmake-build-debug\CMakeFiles C:\Users\ferna\WORK\Projetos_CPP\File_Manager\cmake-build-debug\\CMakeFiles\progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 codegen
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ferna\WORK\Projetos_CPP\File_Manager\cmake-build-debug\CMakeFiles 0
+
+File_Manager_autogen_timestamp_deps/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 148):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\File_Manager_autogen_timestamp_deps.dir\build.make CMakeFiles/File_Manager_autogen_timestamp_deps.dir/build
+
+# Not a target:
+.hpux_make_needs_suffix_list:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+File_Manager_autogen/mocs_compilation.cpp.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 233):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\File_Manager.dir\build.make CMakeFiles/File_Manager.dir/File_Manager_autogen/mocs_compilation.cpp.s
+
+DirectoryAnalyzer.s: DirectoryAnalyzer.cpp.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+File_Manager_autogen/mocs_compilation.cpp.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\File_Manager.dir\build.make CMakeFiles/File_Manager.dir/File_Manager_autogen/mocs_compilation.cpp.obj
+
+DirectoryAnalyzer.obj: DirectoryAnalyzer.cpp.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+File_Manager.s: File_Manager.cpp.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+rebuild_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 79):
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+
+# files hash-table stats:
+# Load=46/1024=4%, Rehash=0, Collisions=11/167=7%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 64 / storage = 1148 B / avg = 17 B
+# current buf: size = 8162 B / used = 1148 B / count = 64 / avg = 17 B
+
+# strcache performance: lookups = 254 / hit rate = 74%
+# hash-table stats:
+# Load=64/8192=1%, Rehash=0, Collisions=6/254=2%
+# Finished Make data base on Wed Jun 25 00:14:52 2025
+
+ 
