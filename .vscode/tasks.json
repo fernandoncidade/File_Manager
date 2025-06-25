@@ -1,0 +1,214 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "CMake: Configure",
+            "command": "cmake",
+            "args": [
+                "-B",
+                "cmake-build-debug",
+                "-S",
+                ".",
+                "-G",
+                "MinGW Makefiles"
+            ],
+            "options": {
+                "env": {
+                    "PATH": "C:/Qt/Tools/mingw1310_64/bin;${env:PATH}"
+                }
+            },
+            "group": "build",
+            "detail": "Configura o projeto CMake"
+        },
+        {
+            "type": "shell",
+            "label": "CMake: Build",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "cmake-build-debug"
+            ],
+            "options": {
+                "env": {
+                    "PATH": "C:/Qt/Tools/mingw1310_64/bin;${env:PATH}"
+                }
+            },
+            "group": "build",
+            "dependsOn": "CMake: Configure",
+            "detail": "Compila o projeto"
+        },
+        {
+            "type": "shell",
+            "label": "Run Application",
+            "command": "${workspaceFolder}/cmake-build-debug/File_Manager.exe",
+            "options": {
+                "env": {
+                    "PATH": "C:/Qt/6.9.1/mingw_64/bin;C:/Qt/Tools/mingw1310_64/bin;${env:PATH}"
+                }
+            },
+            "group": "test",
+            "dependsOn": "CMake: Build",
+            "detail": "Executa a aplicação"
+        },
+        {
+            "type": "shell",
+            "label": "G++: Compile with Qt (Direct)",
+            "command": "powershell",
+            "args": [
+                "-ExecutionPolicy",
+                "Bypass",
+                "-File",
+                "${workspaceFolder}/compile_with_gpp.ps1"
+            ],
+            "group": "build",
+            "detail": "Compila diretamente com g++ (sem CMake)"
+        },
+        {
+            "type": "shell",
+            "label": "G++: Quick Compile",
+            "command": "powershell",
+            "args": [
+                "-ExecutionPolicy",
+                "Bypass",
+                "-File",
+                "${workspaceFolder}/quick_compile.ps1"
+            ],
+            "group": "build",
+            "detail": "Compilação rápida com g++"
+        },
+        {
+            "type": "shell",
+            "label": "MOC: Generate Meta Objects",
+            "command": "C:/Qt/6.9.1/mingw_64/bin/moc.exe",
+            "args": [
+                "DirectoryAnalyzer.h",
+                "-o",
+                "moc_DirectoryAnalyzer.cpp"
+            ],
+            "group": "build",
+            "detail": "Gera arquivos MOC para Qt"
+        },
+        {
+            "type": "shell",
+            "label": "G++: Compile Direct (Batch)",
+            "command": "${workspaceFolder}/compile_gpp.bat",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "detail": "Compila com g++ usando script batch"
+        },
+        {
+            "type": "shell",
+            "label": "Make: Build with Makefile",
+            "command": "mingw32-make",
+            "options": {
+                "env": {
+                    "PATH": "C:/Qt/Tools/mingw1310_64/bin;${env:PATH}"
+                }
+            },
+            "group": "build",
+            "detail": "Compila usando Makefile"
+        },
+        {
+            "type": "shell",
+            "label": "Make: Build and Run",
+            "command": "mingw32-make",
+            "args": [
+                "run"
+            ],
+            "options": {
+                "env": {
+                    "PATH": "C:/Qt/Tools/mingw1310_64/bin;C:/Qt/6.9.1/mingw_64/bin;${env:PATH}"
+                }
+            },
+            "group": "build",
+            "detail": "Compila e executa usando Makefile"
+        },
+        {
+            "type": "shell",
+            "label": "C/C++: g++.exe arquivo de build ativo (Qt)",
+            "command": "powershell",
+            "args": [
+                "-Command",
+                "& {",
+                "$env:PATH = 'C:/Qt/Tools/mingw1310_64/bin;C:/Qt/6.9.1/mingw_64/bin;' + $env:PATH;",
+                "if (!(Test-Path 'output')) { New-Item -ItemType Directory -Path 'output' };",
+                "Write-Host 'Executando MOC...' -ForegroundColor Yellow;",
+                "C:/Qt/6.9.1/mingw_64/bin/moc.exe DirectoryAnalyzer.h -o moc_DirectoryAnalyzer.cpp;",
+                "if ($LASTEXITCODE -eq 0) {",
+                "Write-Host 'Compilando com g++...' -ForegroundColor Green;",
+                "g++.exe -std=c++20 -Wall -Wextra -g",
+                "-IC:/Qt/6.9.1/mingw_64/include",
+                "-IC:/Qt/6.9.1/mingw_64/include/QtCore",
+                "-IC:/Qt/6.9.1/mingw_64/include/QtGui",
+                "-IC:/Qt/6.9.1/mingw_64/include/QtWidgets",
+                "-IC:/Qt/6.9.1/mingw_64/include/QtSql",
+                "-DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DQT_SQL_LIB",
+                "File_Manager.cpp DirectoryAnalyzer.cpp moc_DirectoryAnalyzer.cpp",
+                "-LC:/Qt/6.9.1/mingw_64/lib",
+                "-lQt6Core -lQt6Gui -lQt6Widgets -lQt6Sql",
+                "-o output/File_Manager.exe;",
+                "if ($LASTEXITCODE -eq 0) {",
+                "Write-Host 'Compilacao bem-sucedida! Executando...' -ForegroundColor Green;",
+                "& './output/File_Manager.exe'",
+                "} else {",
+                "Write-Host 'Erro na compilacao!' -ForegroundColor Red",
+                "}",
+                "} else {",
+                "Write-Host 'Erro no MOC!' -ForegroundColor Red",
+                "}",
+                "}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "Compila e executa arquivo Qt com g++"
+        },
+        {
+            "type": "shell",
+            "label": "Run/Compile Qt Project",
+            "command": "${workspaceFolder}/run_compile.bat",
+            "group": "build",
+            "detail": "Compilar e executar projeto Qt (MÉTODO SIMPLES)"
+        },
+        {
+            "type": "shell",
+            "label": "Qt: Run/Compile Current File",
+            "command": "${workspaceFolder}/compile_gpp.bat",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "detail": "Executa o script de compilação Qt (mais simples)"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe arquivo de build ativo",
+            "command": "C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "C:/Qt/Tools/mingw1310_64/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tarefa gerada pelo Depurador."
+        }
+    ]
+}

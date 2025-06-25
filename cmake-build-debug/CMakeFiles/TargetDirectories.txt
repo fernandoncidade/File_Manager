@@ -1,0 +1,5 @@
+C:/Users/ferna/WORK/Projetos_CPP/File_Manager/cmake-build-debug/CMakeFiles/File_Manager.dir
+C:/Users/ferna/WORK/Projetos_CPP/File_Manager/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ferna/WORK/Projetos_CPP/File_Manager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ferna/WORK/Projetos_CPP/File_Manager/cmake-build-debug/CMakeFiles/File_Manager_autogen_timestamp_deps.dir
+C:/Users/ferna/WORK/Projetos_CPP/File_Manager/cmake-build-debug/CMakeFiles/File_Manager_autogen.dir

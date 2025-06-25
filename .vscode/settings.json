@@ -1,0 +1,30 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "cmake.buildDirectory": "${workspaceFolder}/cmake-build-debug",
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.configureOnOpen": false,
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.configurationWarnings": "enabled",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "C:/Qt/6.9.1/mingw_64/include",
+        "C:/Qt/6.9.1/mingw_64/include/QtCore",
+        "C:/Qt/6.9.1/mingw_64/include/QtGui",
+        "C:/Qt/6.9.1/mingw_64/include/QtWidgets",
+        "C:/Qt/6.9.1/mingw_64/include/QtSql"
+    ],
+    "C_Cpp.default.compilerPath": "C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "files.associations": {
+        "*.h": "cpp",
+        "*.cpp": "cpp"
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\ferna\\WORK\\Projetos_CPP\\File_Manager\\output",
+            "binaryPath": "c:\\Users\\ferna\\WORK\\Projetos_CPP\\File_Manager\\output\\File_Manager.exe",
+            "binaryArgs": []
+        }
+    ]
+}

@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.31)
 project(File_Manager)
 
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Defina o caminho do Qt ANTES de chamar find_package
 set(CMAKE_PREFIX_PATH "C:/Qt/6.9.1/mingw_64")

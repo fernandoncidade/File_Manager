@@ -122,7 +122,7 @@ void DirectoryAnalyzer::initUI() {
 
     void DirectoryAnalyzer::init_db() {
         db = QSqlDatabase::addDatabase("QSQLITE");
-        db.setDatabaseName("C:/Users/ferna/PROJETOS/Projetos_CPP/File-Folder-Manager/File_Manager/directory_changes.db");
+        db.setDatabaseName("directory_changes.db");
 
         if (!db.open()) {
             qDebug() << "Error: connection with database failed";

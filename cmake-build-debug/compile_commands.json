@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/ferna/WORK/Projetos_CPP/File_Manager/cmake-build-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/File_Manager.dir/includes_CXX.rsp -std=gnu++20 -o CMakeFiles\\File_Manager.dir\\File_Manager_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\ferna\\WORK\\Projetos_CPP\\File_Manager\\cmake-build-debug\\File_Manager_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/ferna/WORK/Projetos_CPP/File_Manager/cmake-build-debug/File_Manager_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/File_Manager.dir/File_Manager_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/ferna/WORK/Projetos_CPP/File_Manager/cmake-build-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/File_Manager.dir/includes_CXX.rsp -std=gnu++20 -o CMakeFiles\\File_Manager.dir\\File_Manager.cpp.obj -c C:\\Users\\ferna\\WORK\\Projetos_CPP\\File_Manager\\File_Manager.cpp",
+  "file": "C:/Users/ferna/WORK/Projetos_CPP/File_Manager/File_Manager.cpp",
+  "output": "CMakeFiles/File_Manager.dir/File_Manager.cpp.obj"
+},
+{
+  "directory": "C:/Users/ferna/WORK/Projetos_CPP/File_Manager/cmake-build-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/File_Manager.dir/includes_CXX.rsp -std=gnu++20 -o CMakeFiles\\File_Manager.dir\\DirectoryAnalyzer.cpp.obj -c C:\\Users\\ferna\\WORK\\Projetos_CPP\\File_Manager\\DirectoryAnalyzer.cpp",
+  "file": "C:/Users/ferna/WORK/Projetos_CPP/File_Manager/DirectoryAnalyzer.cpp",
+  "output": "CMakeFiles/File_Manager.dir/DirectoryAnalyzer.cpp.obj"
+}
+]
