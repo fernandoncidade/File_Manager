@@ -6,7 +6,7 @@ C:\Qt\Tools\mingw1310_64\bin\mingw32-make.exe all -C c:\Users\ferna\WORK\Projeto
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun 25 00:14:52 2025
+# Make data base, printed on Wed Jun 25 14:37:08 2025
 
 # Variables
 
@@ -18,12 +18,16 @@ POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
 ?F = $(notdir $?)
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+EFC_10708_2775293581 = 1
 # default
 .SHELLFLAGS := -c
 # environment
 VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # makefile
 MAKEFLAGS = pqrRsw
+# environment
+EFC_10708_1262719628 = 1
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -48,8 +52,6 @@ WINDIR = C:\WINDOWS
 VSCODE_NLS_CONFIG = {"userLocale":"pt-br","osLocale":"pt-br","resolvedLanguage":"pt-br","defaultMessagesFile":"C:\\Users\\ferna\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\out\\nls.messages.json","languagePack":{"translationsConfigFile":"C:\\Users\\ferna\\AppData\\Roaming\\Code\\clp\\505f98eeee092f15c25e49b38c3a801a.pt-br\\tcf.json","messagesFile":"C:\\Users\\ferna\\AppData\\Roaming\\Code\\clp\\505f98eeee092f15c25e49b38c3a801a.pt-br\\18e3a1ec544e6907be1e944a94c496e302073435\\nls.messages.json","corruptMarkerFile":"C:\\Users\\ferna\\AppData\\Roaming\\Code\\clp\\505f98eeee092f15c25e49b38c3a801a.pt-br\\corrupted.info"},"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"505f98eeee092f15c25e49b38c3a801a.pt-br","_languagePackSupport":true,"_translationsConfigFile":"C:\\Users\\ferna\\AppData\\Roaming\\Code\\clp\\505f98eeee092f15c25e49b38c3a801a.pt-br\\tcf.json","_cacheRoot":"C:\\Users\\ferna\\AppData\\Roaming\\Code\\clp\\505f98eeee092f15c25e49b38c3a801a.pt-br","_resolvedLanguagePackCoreLocation":"C:\\Users\\ferna\\AppData\\Roaming\\Code\\clp\\505f98eeee092f15c25e49b38c3a801a.pt-br\\18e3a1ec544e6907be1e944a94c496e302073435","_corruptedFile":"C:\\Users\\ferna\\AppData\\Roaming\\Code\\clp\\505f98eeee092f15c25e49b38c3a801a.pt-br\\corrupted.info"}
 # environment
 ONEDRIVE = C:\Users\ferna\OneDrive
-# environment
-VSCODE_PID = 6956
 # makefile (from 'Makefile', line 62)
 CMAKE_BINARY_DIR = C:\Users\ferna\WORK\Projetos_CPP\File_Manager\cmake-build-debug
 # environment
@@ -68,8 +70,6 @@ PROGRAMDATA = C:\ProgramData
 MAKESILENT = -s
 # environment
 VSCODE_CWD = C:\Users\ferna\AppData\Local\Programs\Microsoft VS Code
-# environment
-DOTNET_MULTILEVEL_LOOKUP = undefined
 # default
 MAKE_HOST := x86_64-w64-mingw32
 # environment
@@ -78,8 +78,6 @@ PATH = C:\Python3132\Scripts\;C:\Python3132\;C:\Program Files\Common Files\Oracl
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
 ZES_ENABLE_SYSMAN = 1
-# environment
-VSCODE_DOTNET_INSTALL_TOOL_ORIGINAL_HOME = undefined
 # environment
 CHOCOLATEYLASTPATHUPDATE = 133908785401559401
 # environment
@@ -103,13 +101,9 @@ INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2025.1\bin;
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6956_LGZMAAUVQFGGDPFS
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13056_DAXNNLOZECWHKBAM
 # environment
 COMPUTERNAME = FERNANDONCIDADE
-# environment
-EFC_11056_2283032206 = 1
-# environment
-COMMONPROPERTYBAGPATH = C:\Users\ferna\AppData\Local\Temp\csdevkit\260e1b19.json
 # environment
 PROGRAMFILES = C:\Program Files
 # default
@@ -124,12 +118,8 @@ USERNAME = ferna
 PUBLIC = C:\Users\Public
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\ferna\AppData\Roaming\Code\CachedData\18e3a1ec544e6907be1e944a94c496e302073435
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # makefile (from 'Makefile', line 56)
 EQUALS = =
-# environment
-COMMONPROPERTYBAGWITHCONFIGPATH = C:\Users\ferna\AppData\Local\Temp\csdevkit\064a7ea27ebf1750818298989.json
 # environment
 COMMONPROGRAMFILES = C:\Program Files\Common Files
 # environment
@@ -139,31 +129,25 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 USERDOMAIN = FERNANDONCIDADE
 # environment
-EFC_11056_3789132940 = 1
-# environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+EFC_10708_2283032206 = 1
 # environment
-EFC_11056_1592913036 = 1
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # default
 MAKE_VERSION := 4.2.1
 # makefile
 .DEFAULT_GOAL := default_target
-# environment
-APPLICATION_INSIGHTS_NO_STATSBEAT = true
 # makefile (from 'Makefile', line 59)
 CMAKE_SOURCE_DIR = C:\Users\ferna\WORK\Projetos_CPP\File_Manager
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # automatic
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
-# environment
-DOTNET_CLI_UI_LANGUAGE = en-US
 # environment
 LOCALAPPDATA = C:\Users\ferna\AppData\Local
 # environment
@@ -175,13 +159,13 @@ MAKE_COMMAND := C:/Qt/Tools/mingw1310_64/bin/mingw32-make
 # automatic
 *F = $(notdir $*)
 # environment
+EFC_10708_3789132940 = 1
+# environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
 VSCODE_IPC_HOOK = \\.\pipe\b27f14d7-1.101.1-main-sock
-# environment
-DOTNET_NOLOGO = true
 # environment
 HOMEPATH = \Users\ferna
 # environment
@@ -197,9 +181,9 @@ SYSTEMROOT = C:\WINDOWS
 # automatic
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
 # environment
-GOTELEMETRY_GOPLS_CLIENT_TOKEN = 840
-# environment
 VSCODE_L10N_BUNDLE_LOCATION = file:///c%3A/Users/ferna/.vscode/extensions/ms-ceintl.vscode-language-pack-pt-br-1.101.2025061109/translations/extensions/vscode.json-language-features.i18n.json
+# environment
+EFC_10708_1592913036 = 1
 # automatic
 +F = $(notdir $+)
 # environment
@@ -216,14 +200,10 @@ MAKEFILES :=
 LC_ALL = C
 # environment
 DATAGRIP = C:\Program Files\JetBrains\DataGrip 2025.1.1\bin;
-# environment
-EFC_11056_2775293581 = 1
 # makefile (from 'Makefile', line 50)
 CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
 # automatic
 ^F = $(notdir $^)
-# environment
-EFC_11056_1262719628 = 1
 # default
 SUFFIXES := 
 # environment
@@ -241,11 +221,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-APPLICATIONINSIGHTS_CONFIGURATION_CONTENT = {}
+VSCODE_PID = 13056
 # environment
 USERDOMAIN_ROAMINGPROFILE = FERNANDONCIDADE
 # variable set hash-table stats:
-# Load=117/1024=11%, Rehash=0, Collisions=19/146=13%
+# Load=107/1024=10%, Rehash=0, Collisions=18/136=13%
 
 # Pattern-specific Variable Values
 
@@ -662,6 +642,6 @@ rebuild_cache:
 # strcache performance: lookups = 254 / hit rate = 74%
 # hash-table stats:
 # Load=64/8192=1%, Rehash=0, Collisions=6/254=2%
-# Finished Make data base on Wed Jun 25 00:14:52 2025
+# Finished Make data base on Wed Jun 25 14:37:08 2025
 
  

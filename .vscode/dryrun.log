@@ -6,7 +6,7 @@ C:\Qt\Tools\mingw1310_64\bin\mingw32-make.exe -C c:\Users\ferna\WORK\Projetos_CP
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun 25 00:14:52 2025
+# Make data base, printed on Wed Jun 25 14:37:07 2025
 
 # Variables
 
@@ -18,12 +18,16 @@ POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
 ?F = $(notdir $?)
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+EFC_10708_2775293581 = 1
 # default
 .SHELLFLAGS := -c
 # environment
 VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # makefile
 MAKEFLAGS = npqsw
+# environment
+EFC_10708_1262719628 = 1
 # default
 CWEAVE = cweave
 # automatic
@@ -60,8 +64,6 @@ LINK.m = $(OBJC) $(OBJCFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
 LINK.o = $(CC) $(LDFLAGS) $(TARGET_ARCH)
 # default
 OUTPUT_OPTION = -o $@
-# environment
-VSCODE_PID = 6956
 # makefile (from 'Makefile', line 62)
 CMAKE_BINARY_DIR = C:\Users\ferna\WORK\Projetos_CPP\File_Manager\cmake-build-debug
 # default
@@ -90,8 +92,6 @@ MAKESILENT = -s
 CPP = $(CC) -E
 # environment
 VSCODE_CWD = C:\Users\ferna\AppData\Local\Programs\Microsoft VS Code
-# environment
-DOTNET_MULTILEVEL_LOOKUP = undefined
 # default
 LINK.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
 # default
@@ -108,8 +108,6 @@ TEXI2DVI = texi2dvi
 ZES_ENABLE_SYSMAN = 1
 # default
 YACC = yacc
-# environment
-VSCODE_DOTNET_INSTALL_TOOL_ORIGINAL_HOME = undefined
 # default
 COMPILE.mod = $(M2C) $(M2FLAGS) $(MODFLAGS) $(TARGET_ARCH)
 # environment
@@ -141,8 +139,7 @@ NUMBER_OF_PROCESSORS = 12
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver o 
-utput-sync
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
 # default
 TANGLE = tangle
 # environment
@@ -154,7 +151,7 @@ INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2025.1\bin;
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6956_LGZMAAUVQFGGDPFS
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13056_DAXNNLOZECWHKBAM
 # default
 COMPILE.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
 # default
@@ -165,10 +162,6 @@ CTANGLE = ctangle
 COMPUTERNAME = FERNANDONCIDADE
 # default
 LINK.C = $(LINK.cc)
-# environment
-EFC_11056_2283032206 = 1
-# environment
-COMMONPROPERTYBAGPATH = C:\Users\ferna\AppData\Local\Temp\csdevkit\260e1b19.json
 # environment
 PROGRAMFILES = C:\Program Files
 # default
@@ -189,12 +182,8 @@ PUBLIC = C:\Users\Public
 LINK.s = $(CC) $(ASFLAGS) $(LDFLAGS) $(TARGET_MACH)
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\ferna\AppData\Roaming\Code\CachedData\18e3a1ec544e6907be1e944a94c496e302073435
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # makefile (from 'Makefile', line 56)
 EQUALS = =
-# environment
-COMMONPROPERTYBAGWITHCONFIGPATH = C:\Users\ferna\AppData\Local\Temp\csdevkit\064a7ea27ebf1750818298989.json
 # environment
 COMMONPROGRAMFILES = C:\Program Files\Common Files
 # environment
@@ -204,21 +193,19 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 USERDOMAIN = FERNANDONCIDADE
 # environment
-EFC_11056_3789132940 = 1
-# environment
 MAKELEVEL := 0
 # default
 COMPILE.m = $(OBJC) $(OBJCFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
 # default
 MAKE = $(MAKE_COMMAND)
+# environment
+EFC_10708_2283032206 = 1
 # default
 AS = as
 # environment
 VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # default
 PREPROCESS.S = $(CC) -E $(CPPFLAGS)
-# environment
-EFC_11056_1592913036 = 1
 # default
 COMPILE.p = $(PC) $(PFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
 # default
@@ -227,16 +214,12 @@ MAKE_VERSION := 4.2.1
 FC = f77
 # makefile
 .DEFAULT_GOAL := default_target
-# environment
-APPLICATION_INSIGHTS_NO_STATSBEAT = true
 # makefile (from 'Makefile', line 59)
 CMAKE_SOURCE_DIR = C:\Users\ferna\WORK\Projetos_CPP\File_Manager
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # automatic
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
-# environment
-DOTNET_CLI_UI_LANGUAGE = en-US
 # environment
 LOCALAPPDATA = C:\Users\ferna\AppData\Local
 # environment
@@ -260,13 +243,13 @@ PC = pc
 # automatic
 *F = $(notdir $*)
 # environment
+EFC_10708_3789132940 = 1
+# environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
 VSCODE_IPC_HOOK = \\.\pipe\b27f14d7-1.101.1-main-sock
-# environment
-DOTNET_NOLOGO = true
 # default
 COMPILE.def = $(M2C) $(M2FLAGS) $(DEFFLAGS) $(TARGET_ARCH)
 # default
@@ -289,12 +272,12 @@ LEX.m = $(LEX) $(LFLAGS) -t
 SYSTEMROOT = C:\WINDOWS
 # automatic
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
-# environment
-GOTELEMETRY_GOPLS_CLIENT_TOKEN = 840
 # default
 COMPILE.r = $(FC) $(FFLAGS) $(RFLAGS) $(TARGET_ARCH) -c
 # environment
 VSCODE_L10N_BUNDLE_LOCATION = file:///c%3A/Users/ferna/.vscode/extensions/ms-ceintl.vscode-language-pack-pt-br-1.101.2025061109/translations/extensions/vscode.json-language-features.i18n.json
+# environment
+EFC_10708_1592913036 = 1
 # automatic
 +F = $(notdir $+)
 # default
@@ -317,8 +300,6 @@ COFLAGS =
 LC_ALL = C
 # environment
 DATAGRIP = C:\Program Files\JetBrains\DataGrip 2025.1.1\bin;
-# environment
-EFC_11056_2775293581 = 1
 # default
 COMPILE.C = $(COMPILE.cc)
 # makefile (from 'Makefile', line 50)
@@ -329,8 +310,6 @@ CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
 COMPILE.S = $(CC) $(ASFLAGS) $(CPPFLAGS) $(TARGET_MACH) -c
 # default
 LINK.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
-# environment
-EFC_11056_1262719628 = 1
 # default
 SUFFIXES := .out .a .ln .o .c .cc .C .cpp .p .f .F .m .r .y .l .ym .yl .s .S .mod .sym .def .h .info .dvi .tex .texinfo .texi .txinfo .w .ch .web .sh .elc .el
 # environment
@@ -364,11 +343,11 @@ F77FLAGS = $(FFLAGS)
 # default
 LINK.f = $(FC) $(FFLAGS) $(LDFLAGS) $(TARGET_ARCH)
 # environment
-APPLICATIONINSIGHTS_CONFIGURATION_CONTENT = {}
+VSCODE_PID = 13056
 # environment
 USERDOMAIN_ROAMINGPROFILE = FERNANDONCIDADE
 # variable set hash-table stats:
-# Load=178/1024=17%, Rehash=0, Collisions=28/208=13%
+# Load=168/1024=16%, Rehash=0, Collisions=27/198=14%
 
 # Pattern-specific Variable Values
 
@@ -1233,8 +1212,7 @@ File_Manager_autogen: cmake_check_build_system
 
 codegen: cmake_check_build_system
 #  Phony target (prerequisite of .PHONY).
-#  Implicit ru 
-le search has not been done.
+#  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 96):
@@ -1404,6 +1382,6 @@ rebuild_cache:
 # strcache performance: lookups = 347 / hit rate = 60%
 # hash-table stats:
 # Load=136/8192=2%, Rehash=0, Collisions=20/347=6%
-# Finished Make data base on Wed Jun 25 00:14:52 2025
+# Finished Make data base on Wed Jun 25 14:37:07 2025
 
  
